@@ -5,6 +5,7 @@ require_relative '../config/boot'
 # Set default host and port to rails server
 # http://stackoverflow.com/questions/28668436/how-to-change-the-default-binding-ip-of-rails-4-2-development-server
 
+=begin
 if ARGV.first == 's' || ARGV.first == 'server'
   
 	require 'rails/commands/server'
@@ -24,5 +25,5 @@ if ARGV.first == 's' || ARGV.first == 'server'
 	end
 
 end
-
+=end
 require 'rails/commands'
